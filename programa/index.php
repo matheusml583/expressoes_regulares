@@ -13,9 +13,9 @@ function select($conn, $search){
 function main($conn){
     $search = "lin";
     $linhas = select($conn, $search);
-    var_dump($linhas);
+    // var_dump($linhas);
     $matches = exp_reg($linhas, $search);
-    // var_dump($matches);
+    var_dump($matches);
     $ordem = percentage($matches, $search);
     // var_dump($ordem);
 }
