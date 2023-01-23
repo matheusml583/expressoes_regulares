@@ -10,11 +10,11 @@ input {
 }
 
 .btn_cadastrar {
-    background-color: rgb(83, 247, 8);
+    background-color: rgba(84, 247, 8, 0.253);
 }
 
 .btn_cancelar {
-    background-color: rgb(247, 76, 8);
+    background-color: rgba(247, 76, 8, 0.274);
 }
 .pages {
     position: absolute;
