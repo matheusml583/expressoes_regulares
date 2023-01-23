@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exp_reg</title>
+        <link rel="stylesheet" href="front/style/style.css" />
+    </head>
+    <body>
+        <div class="pages">
+            <button class="p_cadastro" onclick="mudar_pagina(0)">
+                Cadastro
+            </button>
+            <button class="p_contatos" onclick="mudar_pagina(1)">
+                Contatos
+            </button>
+        </div>
+        <div class="container_cadastro" id="container_cadastro">
+            <h2>CADASTRO DE CONTATOS</h2>
+            <input
+                class="inputs"
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Nome:"
+            />
+            <input
+                class="inputs"
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email:"
+            />
+            <input
+                class="inputs"
+                type="text"
+                name="telefone"
+                id="telefone"
+                placeholder="Telefone:"
+            />
+            <input
+                class="inputs"
+                type="text"
+                name="sexo"
+                id="sexo"
+                placeholder="Sexo:"
+            />
+            <button class="btn_cadastrar">CADASTRAR</button>
+            <button class="btn_cancelar" onclick="cancelar()">CANCELAR</button>
+        </div>
+
+        <div class="container_contatos" id="container_contatos">
+            <h2>CONTATOS</h2>
+        </div>
+        <script src="front/script/cancelar.js"></script>
+        <script src="front/script/paginas.js"></script>
+    </body>
+</html>

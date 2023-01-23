@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    width: 97%;
+    margin-bottom: 10px;
+}
+
+.btn_cadastrar {
+    background-color: rgb(83, 247, 8);
+}
+
+.btn_cancelar {
+    background-color: rgb(247, 76, 8);
+}
+.pages {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p_cadastro {
+}
+
+.p_contatos {
+}
+.container_cadastro {
+    /* border: 1px solid black; */
+    display: block;
+    align-items: center;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_contatos {
+    /* border: 1px solid black; */
+    display: none;
+    align-items: center;
+    width: 400px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
